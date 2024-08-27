@@ -6,10 +6,10 @@ Must have:
 -  Visual Studio Code, or any IDE
 
 ## Set Up Instructions
-1. To clone the repository, open a terminal window and run `git clone https://github.com/lazysince87/TL-portfolio.git`.
-2. Navigate into the project by running `cd TL-portfolio`.
+1. To clone the repository, open a terminal window and run `git clone https://github.com/uf-cskickstart/personal-portfolio.git`.
+2. Navigate into the project by running `cd personal-portfolio`.
 3. Run `npm install` to install the project's package dependencies.
-4. Run `npm start` to start up the local environment. Navigate to `http://localhost:3000/` to visualize the website.
+4. Run `npm start` to start up the local environment. Navigate to `http://localhost:3000/WiCSE-Personal-Project` to visualize the website.
 
 ## Folder Structure
 <pre>

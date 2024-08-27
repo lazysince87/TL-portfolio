@@ -1,0 +1,53 @@
+
+.project {
+    width: 100%;
+    height: calc(150vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .project h1 {
+    margin-top: 50px;
+    color: #000000;
+    font-size: 35px;
+  }
+  .project img {
+    width: 700px;
+    border-radius: 10px;
+  }
+  .project p {
+    font-size: 40px;
+    color: #000000;
+  }
+  .project svg {
+    font-size: 60px;
+    color: #000000;
+  }
+  .project .icons:hover {
+        color: black;
+        transition: 0.3s ease-in;
+        cursor: pointer;
+  }
+
+@media (max-width: 650px) {
+  .project {
+    height: calc(150vh - 500px);
+  }
+  .project h1 {
+    color: #000000;
+    font-size: 30px;
+  }
+  .project img {
+    width: 400px;
+    border-radius: 20px;
+  }
+  .project p {
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+  }
+  .project svg {
+    font-size: 45px;
+  }
+}
