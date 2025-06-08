@@ -1,15 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+.main{
 
-.App {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  font-family: 'Poppins', sans-serif;
-  background-color: #f0f0f0;
+  margin-top: 110px;
 }
 
-body {
-  padding: 0;
-  margin: 0;
+@media screen and (max-width: 1024px) {
+  .main{
+    margin-top: 0;
+  }
 }

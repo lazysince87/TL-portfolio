@@ -1,12 +1,12 @@
 import React from 'react'
-import Data from './Data'
-import Card from './Card'
-import './Experiences.css'
+import Data from './data'
+import Card from './card'
+import './experience.css'
 
-const Experiences = () => {
+const Experience = () => {
   return (
     <section className="resume container section" id="experience">
-      <h2 className="section_title">Experience</h2>
+      <h2 className="section_title">experience</h2>
 
       <div className="resume_container grid">
         <div className="timeline grid">
@@ -45,4 +45,4 @@ const Experiences = () => {
   )
 }
 
-export default Experiences
+export default Experience
