@@ -7,7 +7,7 @@ const About = () => {
     <section className="about container section" id='about'>
       <h2 className='section_title'>about me</h2>
       <div className='about_container grid'>
-        <img src='./images/avatar.png' alt="" className='about_img'/>
+        <img src='avatar.jpeg' alt="" className='about_img'/>
        
         <div className='about_data grid'>
           <div className='about_info'>

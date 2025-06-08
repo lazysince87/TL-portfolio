@@ -1,7 +1,15 @@
-.about_img{
+.about_img {
+    width: 200px;
     height: 200px;
-}
-
+    object-fit: cover;
+    border-radius: 55% 45% 30% 70%  / 60% 30% 70% 40%;
+    box-shadow: var(--shadow);
+    transition: border-radius 0.3s ease;
+  }
+  .about_img:hover {
+    border-radius: 40% 60% 70% 30%  / 50% 60% 30% 80%;
+  }
+  
 .about_container{
     grid-template-columns: 3fr 12fr;
     column-gap: 0.5rem;
