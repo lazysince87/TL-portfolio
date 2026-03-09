@@ -22,7 +22,7 @@ const About = () => {
             <div className='skill_data'>
               <div className='skill_titles'>
                 <h3 className='skill_name'>JAVA/C++</h3>
-                <span className='skill_number'>90%</span>
+                <span className='skill_number'>90.67%</span>
               </div>
               <div className='skill_bar'>
                 <span className='skill_percentage pg_language'></span>
